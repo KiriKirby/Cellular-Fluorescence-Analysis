@@ -1,5 +1,4 @@
 # Nautilus pompilius Cellular Fluorescence Measurement
-Languages: [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja.md)
 
 > AI Edit Notice
 > This README is maintained with AI-assisted edits. Verify parameters and outputs in your own lab environment before production use.
