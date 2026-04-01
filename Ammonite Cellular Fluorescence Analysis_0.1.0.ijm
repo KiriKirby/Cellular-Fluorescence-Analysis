@@ -1,4 +1,4 @@
-macro "Nautilus Cellular Fluorescence Analysis" {
+macro "Ammonite Cellular Fluorescence Analysis" {
     // =============================================================================
     // Overview: Fiji-only ImageJ macro scaffold for cellular fluorescence analysis.
     // Purpose: Establish the repository baseline and the initial interactive entry flow.
@@ -21,19 +21,19 @@ macro "Nautilus Cellular Fluorescence Analysis" {
     imageDir = "";
     enableFluorescence = DEFAULT_ENABLE_FLUORESCENCE;
 
-    runNautilusCellularFluorescenceAnalysis();
+    runAmmoniteCellularFluorescenceAnalysis();
 }
 
 // -----------------------------------------------------------------------------
-// Function: runNautilusCellularFluorescenceAnalysis
+// Function: runAmmoniteCellularFluorescenceAnalysis
 // Summary: Launch the initial scaffold dialog and emit placeholder logs.
 // Arguments: none
 // Returns: none
 // -----------------------------------------------------------------------------
-function runNautilusCellularFluorescenceAnalysis() {
-    Dialog.create("Nautilus");
+function runAmmoniteCellularFluorescenceAnalysis() {
+    Dialog.create("Ammonite");
     Dialog.addMessage(
-        "Nautilus Cellular Fluorescence Analysis\n\n" +
+        "Ammonite Cellular Fluorescence Analysis\n\n" +
         "Repository scaffold build.\n" +
         "Functional analysis workflow will be implemented next."
     );
@@ -45,13 +45,13 @@ function runNautilusCellularFluorescenceAnalysis() {
     enableFluorescence = Dialog.getCheckbox();
 
     print("\\Clear");
-    print("[NAUTILUS] Nautilus Cellular Fluorescence Analysis v0.1.0");
-    print("[NAUTILUS] Image folder: " + imageDir);
-    print("[NAUTILUS] Cellular fluorescence enabled: " + enableFluorescence);
-    print("[NAUTILUS] Scaffold only. Analysis pipeline not implemented yet.");
+    print("[AMMONITE] Ammonite Cellular Fluorescence Analysis v0.1.0");
+    print("[AMMONITE] Image folder: " + imageDir);
+    print("[AMMONITE] Cellular fluorescence enabled: " + enableFluorescence);
+    print("[AMMONITE] Scaffold only. Analysis pipeline not implemented yet.");
 
     showMessage(
-        "Nautilus",
+        "Ammonite",
         "Repository scaffold is ready.\n\n" +
         "Next step: implement the cellular fluorescence analysis workflow."
     );
