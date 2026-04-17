@@ -1,4 +1,4 @@
-macro "Ammonite Cellular Fluorescence Analysis" {
+macro "Cellular Fluorescence Analysis (Ammonite)" {
     // =============================================================================
     // Overview: Fiji-only ImageJ macro scaffold for cellular fluorescence analysis.
     // Purpose: Establish the repository baseline and the initial interactive entry flow.
@@ -21,19 +21,19 @@ macro "Ammonite Cellular Fluorescence Analysis" {
     imageDir = "";
     enableFluorescence = DEFAULT_ENABLE_FLUORESCENCE;
 
-    runAmmoniteCellularFluorescenceAnalysis();
+    runCellularFluorescenceAnalysisAmmonite();
 }
 
 // -----------------------------------------------------------------------------
-// Function: runAmmoniteCellularFluorescenceAnalysis
+// Function: runCellularFluorescenceAnalysisAmmonite
 // Summary: Launch the initial scaffold dialog and emit placeholder logs.
 // Arguments: none
 // Returns: none
 // -----------------------------------------------------------------------------
-function runAmmoniteCellularFluorescenceAnalysis() {
-    Dialog.create("Ammonite");
+function runCellularFluorescenceAnalysisAmmonite() {
+    Dialog.create("Cellular Fluorescence Analysis (Ammonite)");
     Dialog.addMessage(
-        "Ammonite Cellular Fluorescence Analysis\n\n" +
+        "Cellular Fluorescence Analysis (Ammonite)\n\n" +
         "Repository scaffold build.\n" +
         "Functional analysis workflow will be implemented next."
     );
@@ -45,13 +45,13 @@ function runAmmoniteCellularFluorescenceAnalysis() {
     enableFluorescence = Dialog.getCheckbox();
 
     print("\\Clear");
-    print("[AMMONITE] Ammonite Cellular Fluorescence Analysis v0.1.0");
-    print("[AMMONITE] Image folder: " + imageDir);
-    print("[AMMONITE] Cellular fluorescence enabled: " + enableFluorescence);
-    print("[AMMONITE] Scaffold only. Analysis pipeline not implemented yet.");
+    print("[CELLULAR-FLUORESCENCE-ANALYSIS (AMMONITE)] Cellular Fluorescence Analysis (Ammonite) v0.1.0");
+    print("[CELLULAR-FLUORESCENCE-ANALYSIS (AMMONITE)] Image folder: " + imageDir);
+    print("[CELLULAR-FLUORESCENCE-ANALYSIS (AMMONITE)] Cellular fluorescence enabled: " + enableFluorescence);
+    print("[CELLULAR-FLUORESCENCE-ANALYSIS (AMMONITE)] Scaffold only. Analysis pipeline not implemented yet.");
 
     showMessage(
-        "Ammonite",
+        "Cellular Fluorescence Analysis (Ammonite)",
         "Repository scaffold is ready.\n\n" +
         "Next step: implement the cellular fluorescence analysis workflow."
     );
